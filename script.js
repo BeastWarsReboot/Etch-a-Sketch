@@ -13,3 +13,7 @@
 *   total amount of pixels used
 *   Set user input limit to a max of 100
 */
+
+/*
+*Part One: 16x16 grid
+*/
