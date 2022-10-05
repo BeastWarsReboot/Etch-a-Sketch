@@ -15,5 +15,24 @@
 */
 
 /*
-*Part One: 16x16 grid
+*   Part One: 16x16 grid
+*       create a default size?
+*       Create divs using a for loop
+*       append them to the 'grid' div in html
+*       make them appear as a grid using flexbox
 */
+
+const grid = document.querySelector('.grid');
+console.log(grid)
+
+function makeGrid(size){
+    let area = size * size;
+    for(let i = 0; i <= area; i++){
+        let square = document.createElement('div');
+        square.classList.add('square');
+        grid.appendChild(square);
+    }
+}
+
+
+makeGrid(16);
